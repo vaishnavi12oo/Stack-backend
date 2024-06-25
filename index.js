@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 import userRoutes from './routes/users.js';
 import questionRoutes from './routes/Questions.js';
 import answerRoutes from './routes/Answers.js';
-import OtpRoutes from './routes/otpRoutes.js'; // Import OTP routes
+import OtpRoutes from './routes/OtpRoutes.js'; // Import OTP routes
 
 const app = express();
 dotenv.config();

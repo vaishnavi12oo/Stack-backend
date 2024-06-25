@@ -1,5 +1,7 @@
+// controllers/Questions.js
 import Questions from '../models/Questions.js';
 import mongoose from 'mongoose';
+import multer from 'multer';
 
 // Existing controllers
 export const AskQuestion = async (req, res) => {
